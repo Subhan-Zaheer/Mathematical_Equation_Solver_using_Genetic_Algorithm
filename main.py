@@ -35,14 +35,17 @@ elif equation_type == 2:  # If it is quadratic equation.
     variable_number = int(
         input("Enter number of variables.\n1 for one variable.\n2 for two variables.\n3 for three varaibles."))
     if variable_number == 1:
+        # For example 3x^2 + 5x =12
         x_coefficient = int(input("Enter value of x coeffiecient : "))
         x_coefficient_with_1degree = int(input("Enter value of x coefficient with 1 power in quadratic equation : "))
     elif variable_number == 2:
+        # For example 3x^2 + 5x + 2y^2 + y = 12
         x_coefficient = int(input("Enter value of x coefficient : "))
         x_coefficient_with_1degree = int(input("Enter value of x coefficient with 1 power in quadratic equation : "))
         y_coefficient = int(input("Enter value of y coefficient : "))
         y_coefficient_with_1pow = int(input("Enter value of y coefficient with 1 power in quadratic equation : "))
     elif variable_number == 3:
+        # For example 3x^2 + 5x + 2y^2 + y + 5z^2 + 9z = 12
         x_coefficient = int(input("Enter value of x coefficient : "))
         x_coefficient_with_1degree = int(input("Enter value of x coefficient with 1 power in quadratic equation : "))
         y_coefficient = int(input("Enter value of y coefficient : "))
@@ -56,10 +59,12 @@ elif equation_type == 3:  # If it is cubic equation.
     variable_number = int(
         input("Enter number of variables.\n1 for one variable.\n2 for two variables.\n3 for three varaibles."))
     if variable_number == 1:
+        # 4x^3 + 3x^2 + 5x = 12
         x_coefficient = int(input("Enter value of x coeffiecient : "))
         x_coefficient_with_2degree = int(input("Enter value of x coefficient with 2 power in cubic equation : "))
         x_coefficient_with_1degree = int(input("Enter value of x coefficient with 1 power in cubic equation : "))
     elif variable_number == 2:
+        # 4x^3 + 3x^2 + 5x + y^3 + 2y^2 + y = 12
         x_coefficient = int(input("Enter value of x coefficient : "))
         x_coefficient_with_2degree = int(input("Enter value of x coefficient with 2 power in cubic equation : "))
         x_coefficient_with_1degree = int(input("Enter value of x coefficient with 1 power in cubic equation : "))
@@ -68,6 +73,7 @@ elif equation_type == 3:  # If it is cubic equation.
         y_coefficient_with_2pow = int(input("Enter value of y coefficient with 2 power in cubic equation : "))
         y_coefficient_with_1pow = int(input("Enter value of y coefficient with 1 power in cubic equation : "))
     elif variable_number == 3:
+        # 4x^3 + 3x^2 + 5x + y^3 + 2y^2 + y + 6z^3 + 5z^2 + 9z = 12
         x_coefficient = int(input("Enter value of x coefficient : "))
         x_coefficient_with_2degree = int(input("Enter value of x coefficient with 2 power in cubic equation : "))
         x_coefficient_with_1degree = int(input("Enter value of x coefficient with 1 power in cubic equation : "))
